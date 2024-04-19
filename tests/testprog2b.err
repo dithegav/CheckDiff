@@ -1,0 +1,11 @@
+testprog2b.c: In function ‘main’:
+testprog2b.c:4:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    4 |  printf("hello");
+      |  ^~~~~~
+testprog2b.c:4:2: warning: incompatible implicit declaration of built-in function ‘printf’
+testprog2b.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | int main () {
+testprog2b.c:2:6: warning: unused variable ‘x’ [-Wunused-variable]
+    2 |  int x;
+      |      ^
